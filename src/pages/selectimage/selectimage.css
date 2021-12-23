@@ -1,0 +1,275 @@
+.select-content{
+    top: 147px;
+    margin-left: 387px;
+   width: 1088px;
+   height: 671px;
+   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+   border: 1px solid var(--unnamed-color-f8f9fb);
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029;
+   border: 1px solid #F8F9FB;
+   border-radius: 13px;
+   opacity: 1;
+}
+
+.select-container{
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 922px;
+background: var(--unnamed-color-f8f9fb) 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+margin-left: 40px;
+margin-top: 50px;
+}
+
+
+.select-title-wrapper{
+    display: flex;
+    height: 100px;
+  
+}
+.close{
+    padding-left: 400px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.select-title{
+    font: var(--unnamed-font-style-normal) normal bold 28px/36px var(--unnamed-font-family-ubuntu);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--black);
+    text-align: left;
+    font: normal normal bold 38px/36px Ubuntu;
+    letter-spacing: 0px;
+    color: #4A4A4A;
+    opacity: 1;
+    top: 190px;
+left: 434px;
+width: 616px;
+height: 40px;
+padding-left: 50px;
+padding-top: 50px;}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 800px;
+    height: 300px;
+    background: white;
+    margin: 100px auto 0;
+    word-break: break-all;
+    margin-top: 0px;
+    margin-left: 50px;
+   
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
+    text-align: left;
+    width: 10%;
+    background: white;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font: var(--unnamed-font-style-normal) normal medium 18px/36px var(--unnamed-font-family-ubuntu);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-707070);
+    font: normal normal medium 18px/36px Ubuntu;
+    letter-spacing: 0px;
+    color: #707070;
+     opacity: 1;
+
+  }
+  .tabs:not(:last-child){
+    
+  }
+  
+  .active-tabs  {
+    background: white;
+   
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 2px;
+    background: rgb(88, 147, 241);
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+    height: 300px;
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .line{
+    border: 1px solid var(--unnamed-color-cecece);
+    border: 1px solid #CECECE;
+    opacity: 1;
+  }
+
+  .select-bottom{
+      margin-top: 160px;
+      display: flex;
+      justify-content: right;
+      margin-right: 20px;
+      
+  }
+
+  .butt{
+    opacity: 1;
+    background: var(--primary) 0% 0% no-repeat padding-box;
+    background: #387BAA 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    opacity: 1;
+    top: 715px;
+    left: 434px;
+    width: 85px;
+    height: 49px;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: white;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/24px var(--unnamed-font-family-ubuntu);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    justify-content: center;
+    cursor: pointer;
+   
+  }
+
+  .select-img{
+    top: 236px;
+    left: 379px;
+    width: 164px;
+    height: 164px;
+    opacity: 1;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .dot{
+    top: 228px;
+    left: 376px;
+    width: 950px;
+    height: 360px;
+    border: 4px dashed #70707059;
+    border-radius: 11px;
+    opacity: 1;
+  }
+
+  .can-butt{
+    opacity: 1;
+    background: var(--primary) 0% 0% no-repeat padding-box;
+    background: grey 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    opacity: 1;
+    top: 715px;
+    left: 434px;
+    width: 85px;
+    height: 49px;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: white;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/24px var(--unnamed-font-family-ubuntu);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    font: normal normal normal 20px/24px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+  .choose-btn{
+    top: 518px;
+    left: 779px;
+    width: 286px;
+    height: 38px;
+    background: var(--primary) 0% 0% no-repeat padding-box;
+    background: #387BAA 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/18px var(--unnamed-font-family-ubuntu);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 16px/18px Ubuntu;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: -210px;
+    margin-top: 250px;
+    cursor: pointer;
+
+  }
+
+ .drop-title{
+  top: 453px;
+  left: 754px;
+  width: 336px;
+  height: 20px;
+  font: var(--unnamed-font-style-normal) normal medium 18px/36px var(--unnamed-font-family-ubuntu);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-707070);
+  text-align: center;
+  font: normal normal medium 18px/36px Ubuntu;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  margin-left: 330px;
+  margin-top: 450px;
+ }
